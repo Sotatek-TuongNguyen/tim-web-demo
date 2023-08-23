@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <p style="align-items: center; justify-content: center; display: flex; height: 200px;">Redirecting</p>
   <script type="text/javascript">
     setTimeout(function () {
       if (navigator.userAgent.match(/Android/i)) {
@@ -18,7 +19,7 @@
         || navigator.userAgent.match(/iPod/i)) {
         window.location = "https://apps.apple.com/us/app/%E3%81%82%E3%82%8B-%E3%83%90%E3%82%A4%E3%83%88/id6451226188";
       }
-    }, 25);
+    }, 3000);
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     if(urlParams.has('product')) {
